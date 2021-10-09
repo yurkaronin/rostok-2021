@@ -1,0 +1,20 @@
+/* Базовые стили (общие) */
+html {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+:focus-visible {
+  outline-color: #de2c27;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
