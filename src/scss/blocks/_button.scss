@@ -1,0 +1,26 @@
+.button {
+  background-color: #80c41c;
+  border-radius: 60px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 15px 37px 13px;
+  text-decoration: none;
+  transition: 0.3s linear;
+  max-width: max-content;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: #237d26;
+    color: #ffffff;
+    // transform: scale(1.2);
+  }
+}

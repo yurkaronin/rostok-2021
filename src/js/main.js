@@ -1,8 +1,7 @@
-function printName(name, func) {
-    console.log(name);
-    func();
-}
+const menuBtn = document.querySelector('.js-humburger');
+const mainMenu = document.querySelector('.header__menu');
 
-printName('Bob', () => {
-	console.log('hello from arrow function');
+menuBtn.addEventListener('click', () => {
+  menuBtn.classList.toggle('active');
+  mainMenu.classList.toggle('show');
 });
